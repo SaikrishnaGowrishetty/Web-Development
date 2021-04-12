@@ -1,0 +1,318 @@
+
+
+/****body color****/
+body{
+ color:#2C2C2C;
+ background-color:#FFFFFF;
+}
+
+
+/****Header styles****/		
+h1,h2,h3,h4,h5,h6{
+	font-family:Montserrat;
+}
+h2{
+	text-align:center;
+}
+
+header{	
+	background-color:#378C3F;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	height:50px;
+}
+*{
+	list-style-type:none;
+}
+
+.top_nav ul{
+	float:left;
+	display:flex;
+}
+
+.top_nav ul li:first-child{
+	padding-right:150px;
+}
+
+.top_nav ul li{
+	padding-right:30px;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.button{
+	background-color:green;
+	padding: 0px 35px;
+	text-decoration: none;
+	color:#FFFFFF;
+	background-size:200% auto;
+}
+.contact ul{
+	position:absolute;
+	display:flex;
+	bottom:20px;;
+	left:40%;
+}
+.contact ul li{
+	padding-right:10px;
+}
+
+.Wrapper{
+	width:80%;
+	height:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:20px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.layout_skills{
+	width:80%;
+	height:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:20px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.About{	
+	float:left;
+	width:40%;
+}
+.Basic{
+	margin-left:50%;
+}
+
+.Basic dt{
+	float:left;
+	width:25%;
+}
+
+.Basic dd{
+	padding-bottom:30px;
+}
+
+/*skills*/
+
+.skillbox p:nth-child(1){
+	float:left;
+	width:85%;
+	margin:0;
+}
+
+.skill{
+	margin-bottom:20px;
+	background:white;
+	padding:0px;
+	box-sizing:border-box;
+	border: 1px solid;
+	border-radius:2px;
+	width:90%;
+}
+
+.skill_level{
+	background:	green;
+	width:100%;
+	height:5px;
+	
+}
+
+.firstset{
+	float:left;
+	width:50%;
+	margin:0;
+	padding:0;
+}
+
+
+/*portfolio*/
+
+.project1 img{
+	float:left;
+	margin-right:150px;
+	margin-bottom:30px;
+}
+.project3 img{
+	float:left;
+	margin-right:150px;
+}
+
+
+/*Education*/
+.layout_Education1{
+	position:absolute;
+	width:80%;
+	height:20%;
+	margin-left:10%;
+	margin-top:3%;	
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.layout_Education2{
+	position:absolute;
+	width:80%;
+	height:20%;
+	margin-left:10%;
+	margin-top:15%;	
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+.layout_Education3{
+	position:absolute;
+	width:80%;
+	height:20%;
+	margin-left:10%;
+	margin-top:27%;	
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.degree{
+	position:absolute;
+	float:left;
+	width:20%;
+	height:100%;
+	background-color:green;
+	color:#FFFFFF;
+	text-align:center;
+}
+.Detail{
+	margin-left:22%;
+}
+
+
+/*Hireme*/
+
+.Service{
+	width:80%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.Hire {
+  float: left;
+  width: 31%;
+  height:100%;
+  margin-right:10px;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.service:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Cart{
+	width:100%;
+	height:20%;
+}
+
+/******blog*****/
+
+.bloglayout{
+	width:80%;
+	height:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+.bloglayout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row1 {
+  float: left;
+  width: 20%;
+  height:100%;
+  margin-right:20px;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.row2 {
+  float: left;
+  width: 48%;
+  height:100%;
+  margin-right:10px;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.Blog{
+	width:100%;
+	height:35%;
+}
+
+.Blog2{
+	width:100%;
+	height:40%;
+}
+
+.comment{
+	position:relative;
+	width:100%;
+	height:5%;
+	top:5%;
+}
+/*....contact..*/
+
+.FormEntry {
+  float: left;
+  width: 40%;
+  height:100%;
+  margin-right:50px;
+  margin-left:50px;
+
+}
+.FormEntry dt
+{
+	font-weight:bold;
+}
+.FormEntry dd{
+	margin:0;
+	padding-bottom:40px;
+}
+
+/*signup*/
+.layout_signup{
+	width:45%;
+	height:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding-top:20px;
+	padding-left:10px;
+	padding-right:10px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+
+/**login***/
+.layout_login{
+	width:35%;
+	height:45%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	padding-top:20px;
+	padding-left:10px;
+	padding-right:10px;
+	background: rgba(255,255,255,0.9);
+	box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+}
